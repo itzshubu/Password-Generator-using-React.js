@@ -58,8 +58,8 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen text-center'>
-        <div className='inline-block border border-black bg-zinc-500 p-3 sm:m-6 rounded-lg'>
+      <div className='w-full h-screen text-center flex items-center justify-center'>
+        <div className='inline-block border border-black bg-zinc-500 my-auto p-3 sm:m-6 rounded-lg'>
           <h1 className='my-3 font-bold text-2xl'>Pasword Generator</h1>
           <div className='rounded-xl overflow-hidden flex items-center justify-center'>
             <input type="text" className='w-[70vw] px-3 text-lg h-11  sm:w-[40vw] outline-none' readOnly placeholder='' value={pasword} />
